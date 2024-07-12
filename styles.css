@@ -34,9 +34,9 @@ nav ul {
     /* Alineación del texto en el centro */
     text-align: center;
     /* Color de fondo de la barra de navegación */
+    background-color: #303030;
     /* Elimina los márgenes */
     margin: 0;
-    color: #FFFFFF;
 }
 
 /* Estilos para los elementos de la lista en la barra de navegación */
