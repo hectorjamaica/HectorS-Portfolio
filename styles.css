@@ -36,7 +36,7 @@ nav ul {
     /* Color de fondo de la barra de navegación */
     /* Elimina los márgenes */
     margin: 0;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 /* Estilos para los elementos de la lista en la barra de navegación */
@@ -50,7 +50,7 @@ nav ul li {
 /* Estilos para los enlaces en la barra de navegación */
 nav ul li a {
     /* Color del texto del enlace */
-    color: #fff;
+    color: #FFFFFF;
     /* Relleno interno del enlace */
     padding: 0.5rem 1rem;
     /* Elimina el subrayado por defecto */
