@@ -88,6 +88,33 @@
             }, 3000); // Cambia la imagen cada 2 segundos
         }
      </script>
+<!-- Sección para la NASA API -->
+    <section id="nasa-apod">
+        <h2>Imagen Astronómica del Día (APOD)</h2>
+        <div id="apod">
+            <h3 id="title"></h3>
+            <p id="date"></p>
+            <img id="image" src="" alt="NASA APOD" width="600">
+            <p id="description"></p>
+        </div>
+    </section>
+
+    <script>
+        // Reemplaza 'YOUR_API_KEY' con tu clave de API de la NASA
+        const apiKey = 'Hh6OJxIEihVSBdaIdpZIQzD1nWhZkDs9JmaNvYKB';
+        const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`;
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('title').textContent = data.title;
+                document.getElementById('date').textContent = data.date;
+                document.getElementById('image').src = data.url;
+                document.getElementById('description').textContent = data.explanation;
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+    
     <!-- Pie de página del sitio -->
     <footer>
         <p>&copy; 2024 My first website</p>
