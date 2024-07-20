@@ -2,7 +2,8 @@
 Student´s Name: Soto Rodríguez Héctor Iván
 
 Project: University Portfolio
+The project is about making a website for educational purposes, the goal is to make it my portfolio in the near future.
 
-*Utilize una API de la NASA es la sección de About Me*
+*I use a NASA API in the "About Me" section.*
 
 https://hectorjamaica.github.io/HectorS-Portfolio/
